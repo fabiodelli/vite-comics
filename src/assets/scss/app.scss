@@ -4,6 +4,8 @@
     box-sizing: 0;
 }
 
+/* header */
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -21,4 +23,42 @@
         list-style: none;
         margin: 0.5rem; 
     }
+}
+
+/* main */
+
+.main{
+    background: black;
+    color: white;
+    display: flex;
+        div{
+            font-size: 30px;
+        }   
+    
+}
+
+.container_70_main{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;   
+}
+.container_70_upper_footer{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+/* footer */
+
+.upper_footer{
+    background: rgb(2, 130, 249);
+    width: 100%;
+}
+.img_size img{
+    width: 40px;
 }

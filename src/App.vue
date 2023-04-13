@@ -28,8 +28,26 @@ export default {
       </ul>
     </div>
   </header>
-  <main></main>
-  <footer></footer>
+
+  <main class="main">
+
+    <div class="container_70_main"> --Content goes here-- </div>
+    
+  </main>
+
+  <footer>
+
+    <div class="upper_footer">
+      <div class=" container_70_upper_footer img_size ">
+        <img src="./assets/img/buy-comics-digital-comics.png" alt="">
+        <img src="./assets/img/buy-comics-merchandise.png" alt="">
+        <img src="./assets/img/buy-comics-subscriptions.png" alt="">
+        <img src="./assets/img/buy-comics-shop-locator.png" alt="">       
+        <img src="./assets/img/buy-dc-power-visa.svg" alt="">
+      </div>
+    </div>
+
+  </footer>
   
 </template>
 
