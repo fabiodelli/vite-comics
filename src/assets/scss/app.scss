@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    margin: auto;
+        img{
+            width: 70px;
+        }
+}
+.nav_links{
+    display: flex;
+    li {
+        list-style: none;
+        margin: 0.5rem; 
+    }
+}
