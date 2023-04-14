@@ -1,64 +1,143 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
+
+
 /* header */
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 70%;
     height: 100px;
     margin: auto;
-        img{
-            width: 70px;
-        }
+
+    img {
+        width: 70px;
+    }
 }
-.nav_links{
+
+.nav_links {
     display: flex;
+
     li {
         list-style: none;
-        margin: 0.5rem; 
+        margin: 0.5rem;
+        font-size: 14px;
     }
 }
 
 /* main */
 
-.main{
+.main {
     background: black;
     color: white;
     display: flex;
-        div{
-            font-size: 30px;
-        }   
-    
+
+    div {
+        font-size: 30px;
+    }
+
 }
 
-.container_70_main{
-    width: 70%;
-    height: 100px;
-    margin: auto;
-    display: flex;
-    align-items: center;   
-}
-.container_70_upper_footer{
+.container_70_main {
     width: 70%;
     height: 100px;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;   
+}
+
+.container_70_upper_footer {
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* footer */
 
-.upper_footer{
+.upper_footer {
     background: rgb(2, 130, 249);
     width: 100%;
 }
-.img_size img{
-    width: 40px;
+
+.img_size {
+    div {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 12px;
+
+        span {
+            margin-left: 0.5rem;
+        }
+    }
+
+    img {
+        width: 30px;
+    }
+
+    .svg {
+        width: 22px !important;
+    }
+}
+
+/* central footer */
+
+.central_footer {
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/footer-bg.jpg);
+}
+
+.title {
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.central_footer_link {
+    display: flex;
+    gap: 1rem;
+    width: 70%;
+    margin: auto;
+    color: gray;
+    font-size: 12px;
+}
+
+/*  bottom footer */
+
+.bottom_footer{
+    background: rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+}
+.container_70_bottom_footer {
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .sign_up_button{
+        border: 1px solid rgb(2, 130, 249);
+        padding: 0.7rem;
+    }
+    .follow_us{
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        img{
+            width: 25px;
+        }
+    }
 }
