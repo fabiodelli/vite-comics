@@ -36,12 +36,14 @@
 .main {
     background: black;
     color: white;
-    display: flex;
 
     div {
-        font-size: 30px;
+        height: 270px;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+        }
     }
-
 }
 
 .container_70_main {
@@ -104,22 +106,29 @@
     color: white;
 }
 
-.central_footer_link {
+.container_70_central_footer_link {
     display: flex;
     gap: 1rem;
     width: 70%;
     margin: auto;
     color: gray;
     font-size: 12px;
+
+    ul {
+        div {
+            margin-bottom: 0.3rem;
+        }
+    }
 }
 
 /*  bottom footer */
 
-.bottom_footer{
+.bottom_footer {
     background: rgb(48, 48, 48);
     display: flex;
     align-items: center;
 }
+
 .container_70_bottom_footer {
     width: 70%;
     height: 80px;
@@ -128,15 +137,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .sign_up_button{
+
+    .sign_up_button {
         border: 1px solid rgb(2, 130, 249);
         padding: 0.7rem;
     }
-    .follow_us{
+
+    .follow_us {
         display: flex;
         align-items: center;
         gap: 0.3rem;
-        img{
+
+        img {
             width: 25px;
         }
     }

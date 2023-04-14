@@ -34,7 +34,9 @@ export default {
 
   <main class="main">
 
-    <div class="container_70_main"> --Content goes here-- </div>
+    <div>
+      <img src="./assets/img/jumbotron.jpg" alt="Jumbotron DC">
+    </div>
 
   </main>
 
@@ -76,9 +78,9 @@ export default {
 
     <div class="central_footer">
 
-      <div class="central_footer_link">
+      <div class="container_70_central_footer_link">
         <ul>
-          <div class="title">DC COMICS</div>
+          <h2 class="title">DC COMICS</h2>
           <div>Characters</div>
           <div>Comics</div>
           <div>Movies</div>
@@ -86,12 +88,12 @@ export default {
           <div>Games</div>
           <div>Videos</div>
           <div>News</div>
-          <div class="title">SHOP</div>
+          <h2 class="title">SHOP</h2>
           <div>Shop DC</div>
           <div>News</div>
         </ul>
         <ul>
-          <div class="title">DC</div>
+          <h2 class="title">DC</h2>
           <div>Terms of use</div>
           <div>Privacy polici (New)</div>
           <div>Ad choices</div>
@@ -105,7 +107,7 @@ export default {
           <div>Contact Us</div>
         </ul>
         <ul>
-          <div class="title">SITES</div>
+          <h2 class="title">SITES</h2>
           <div>DC</div>
           <div>Mad magazine</div>
           <div>DC kids</div>
