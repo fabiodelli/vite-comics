@@ -37,6 +37,7 @@ export default {
     <div>
       <img src="./assets/img/jumbotron.jpg" alt="Jumbotron DC">
     </div>
+    <div class="container_70_main"></div>
 
   </main>
 

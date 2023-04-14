@@ -1,0 +1,19 @@
+.main {
+    background: black;
+    color: white;
+
+    div {
+        height: 270px;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+        }
+    }
+    .container_70_main {
+        width: 70%;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+}
