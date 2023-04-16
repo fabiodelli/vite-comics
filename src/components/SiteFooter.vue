@@ -1,3 +1,9 @@
+<script>
+export default {
+    name: 'SiteFooter'
+}
+</script>
+
 <template>
     <footer>
     <div class="upper_footer">
@@ -33,42 +39,42 @@
     <div class="central_footer">
 
       <div class="container_70_central_footer_link">
-        <ul>
+        <div>
           <h2 class="title">DC COMICS</h2>
-          <div>Characters</div>
-          <div>Comics</div>
-          <div>Movies</div>
-          <div>TV</div>
-          <div>Games</div>
-          <div>Videos</div>
-          <div>News</div>
+          <a>Characters</a>
+          <a>Comics</a>
+          <a>Movies</a>
+          <a>TV</a>
+          <a>Games</a>
+          <a>Videos</a>
+          <a>News</a>
           <h2 class="title">SHOP</h2>
-          <div>Shop DC</div>
-          <div>News</div>
-        </ul>
-        <ul>
+          <a>Shop DC</a>
+          <a>News</a>
+        </div>
+        <div>
           <h2 class="title">DC</h2>
-          <div>Terms of use</div>
-          <div>Privacy polici (New)</div>
-          <div>Ad choices</div>
-          <div>Advertising</div>
-          <div>Jobs</div>
-          <div>Subscriptions</div>
-          <div>Talent worksop</div>
-          <div>CPFC certificates</div>
-          <div>Ratings</div>
-          <div>Shop help</div>
-          <div>Contact Us</div>
-        </ul>
-        <ul>
+          <a>Terms of use</a>
+          <a>Privacy polici (New)</a>
+          <a>Ad choices</a>
+          <a>Advertising</a>
+          <a>Jobs</a>
+          <a>Subscriptions</a>
+          <a>Talent worksop</a>
+          <a>CPFC certificates</a>
+          <a>Ratings</a>
+          <a>Shop help</a>
+          <a>Contact Us</a>
+        </div>
+        <div>
           <h2 class="title">SITES</h2>
-          <div>DC</div>
-          <div>Mad magazine</div>
-          <div>DC kids</div>
-          <div>DC Universe</div>
-          <div>DC Power visa</div>
+          <a>DC</a>
+          <a>Mad magazine</a>
+          <a>DC kids</a>
+          <a>DC Universe</a>
+          <a>DC Power visa</a>
 
-        </ul>
+        </div>
       </div>
     </div>
 
@@ -77,22 +83,16 @@
         <div class="sign_up_button">SIGN UP NOW</div>
         <div class="follow_us">
           <strong>FOLLOW US</strong>
-          <img src="./assets/img/footer-facebook.png" alt="">
-          <img src="./assets/img/footer-periscope.png" alt="">
-          <img src="./assets/img/footer-pinterest.png" alt="">
-          <img src="./assets/img/footer-twitter.png" alt="">
-          <img src="./assets/img/footer-youtube.png" alt="">
+          <img src="../assets/img/footer-facebook.png" alt="">
+          <img src="../assets/img/footer-periscope.png" alt="">
+          <img src="../assets/img/footer-pinterest.png" alt="">
+          <img src="../assets/img/footer-twitter.png" alt="">
+          <img src="../assets/img/footer-youtube.png" alt="">
         </div>
       </div>
     </div>
 
   </footer>
 </template>
-
-<script>
-export default {
-    name: 'SiteFooter'
-}
-</script>
 
 <style lang="scss" scoped></style>

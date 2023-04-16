@@ -2,7 +2,7 @@
 
 import siteHeader from "./components/siteHeader.vue"
 import siteMain from "./components/siteMain.vue"
-import siteFooter from "./components/siteFooter.vue"
+import siteFooter from "./components/SiteFooter.vue"
 
 export default {
   components:{

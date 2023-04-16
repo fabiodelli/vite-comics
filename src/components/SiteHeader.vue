@@ -1,5 +1,11 @@
+<script>
+export default {
+  name: 'SiteHeader'
+}
+</script>
+
 <template>
-     <header>
+  <header>
     <div class="nav d-flex">
       <div class="logo">
         <img src="../assets/img/dc-logo.png" alt="">
@@ -19,12 +25,4 @@
   </header>
 </template>
 
-<script>
-    export default {
-        name:'SiteHeader'
-    }
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

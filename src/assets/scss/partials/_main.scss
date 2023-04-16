@@ -2,7 +2,7 @@
     background: black;
     color: white;
 
-    div {
+    .jumbo {
         height: 270px;
         overflow: hidden;
         img {
@@ -11,9 +11,29 @@
     }
     .container_70_main {
         width: 70%;
-        height: 100px;
         margin: auto;
         display: flex;
         align-items: center;
+        padding: 3rem;
+        .row{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            .col_2{
+                width: calc(100%/6);
+                height:fit-content;
+                .card{
+                
+                    justify-content: center;
+                    height:fit-content;
+                    img{
+                        height: 150px;
+                    }
+                    div{
+                        height:fit-content;
+                    }
+                }
+            }
+        }
     }
 }
